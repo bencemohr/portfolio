@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 100vh;
+}
+
+#profile_picture{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+}
+
+#profile{
+    display: grid;
+    grid-template-columns: min-content max-content;
+    gap: 8px;
+    padding-bottom: 20px;
+}
+
+#profile section{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav{
+    background-color: #333333;
+    color: #F5F5F5;
+    padding-left: 18px;
+    padding-top: 18px;
+}
+
