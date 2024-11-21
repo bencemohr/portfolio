@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Montserrat";
     src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -31,7 +31,7 @@ main{
     display: grid;
     grid-template-columns: min-content max-content;
     gap: 8px;
-    padding-bottom: 20px;
+    padding-bottom: 2vh;
 }
 
 #profile section{
@@ -42,7 +42,34 @@ main{
 nav{
     background-color: #333333;
     color: #F5F5F5;
-    padding-left: 18px;
-    padding-top: 18px;
+    padding-left: 1.5vw;
+    padding-top: 1vh;
 }
 
+nav ul{
+    list-style: none;
+    font-size: 3rem;
+}
+
+a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+li{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+nav p{
+    padding-top: 31vh;
+    padding-bottom: 2vh;
+}
+
+#content{
+    padding: 2%;
+}
