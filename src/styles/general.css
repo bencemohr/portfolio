@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#profile_card{
+    display: grid;
+    grid-template-columns: min-content max-content;
+    gap: 1vw;
+}
+
+#profile_card img{
+    width: 77px;
+    border-radius: 100%;
+}
+
+#profile_title{
+    margin: auto;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: min-content 2fr;
+    padding: 11px;
+    background-color: #333333;
+    color: #F5F5F5;
+}
+
+.menu_item{
+    color: #F5F5F5;
+    margin: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#menu > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu{
+    margin: auto;
+}
+
+main
+{
+    min-height: 100vh;
+    color: #333333;
+    background-color: #F5F5F5;
+    padding: 11px;
+}
+
+#title{
+    padding: 11px;
+    text-align: center;
+}

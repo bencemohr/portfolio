@@ -1,8 +1,12 @@
 @font-face {
     font-family: "Montserrat";
-    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
+}
+
+#profile_title{
+    margin: auto;
 }
 
 *{
@@ -71,5 +75,11 @@ nav p{
 }
 
 #content{
-    padding: 2%;
+    margin: 2% 7%;
+    font-size: 2rem;
+}
+
+#content img{
+    width: 30%;
+    height: 30%;
 }
